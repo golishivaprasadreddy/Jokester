@@ -8,7 +8,7 @@ function App() {
   // Fetch a random joke from the API
   const fetchRandomJoke = () => {
     axios
-      .get("http://localhost:3000/jokes")
+    .get(`${import.meta.env.VITE_API_URL}`)
       .then((response) => {
         const jokesArray = response.data;
         if (jokesArray.length > 0) {
@@ -46,7 +46,7 @@ function App() {
 
       {/* Footer */}
       <footer className="mt-8 text-sm bg-black bg-opacity-50 p-2 rounded-lg">
-        <p>Built with ❤️ using React and Tailwind CSS</p>
+        <p>By Goli ShivaPrasad Reddy ❤️ </p>
       </footer>
     </div>
   );
