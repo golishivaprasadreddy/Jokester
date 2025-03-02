@@ -10,7 +10,7 @@ This is a simple React application that fetches and displays random jokes from a
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 
-
+ 
 ## Features
 - Fetches random jokes from an API.
 - Displays jokes in a clean and responsive UI.
