@@ -30,3 +30,10 @@ This is a simple React application that fetches and displays random jokes from a
 1. Clone the repository:
    ```bash
    git clone https://github.com/golishivaprasadreddy/Jokester.git
+```
+ 2.Change Directory
+ ```bash
+
+ cd Jokester
+
+ 
